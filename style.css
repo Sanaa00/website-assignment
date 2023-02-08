@@ -1,10 +1,16 @@
+@font-face{
+    font-family: harry-poter;
+    src: url("./font/HARRYP__.TTF");
+}
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: NotoSans;
     background-color: #161d20;
+    
 }
+
 .menu {
     display: none;
 }
@@ -51,7 +57,7 @@ nav ul a {
 .header{
     grid-row: 1/4;
     grid-column: 1/5;
-    background-color: aqua;
+  
 }
 .about{
     grid-row: 4/6;
@@ -67,4 +73,21 @@ nav ul a {
     grid-row: 6/7;
     grid-column: 1/5;
     background-color: brown;
+}
+.grid-header{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+.img-header{
+    width: 100%;
+    object-fit: contain;
+}
+.p-header{
+    color: #f0f1f2;
+    font-size: 70px;
+    padding: 0;
+    margin: 10px;
+    color: #2d7c8d;
+    font-family: harry-poter;
 }
