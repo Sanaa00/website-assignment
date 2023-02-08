@@ -1,32 +1,18 @@
 const cards = [
   {
-    title: "card 1",
-    img: "",
-    text: "dhcsbvf bhfdsjv jfbhgys fwgbyeh aluifwgr gruihheyw8 gyuyfs  werigb furieb ",
+    name: "Emma Watson",
+    img: "https://i.pinimg.com/originals/2e/41/e7/2e41e7e87fdf0ec381a723c2409c4782.jpg",
   },
   {
-    title: "card 2",
-    img: "",
-    text: "dhcsbvf bhfdsjv jfbhgys fwgbyeh aluifwgr gruihheyw8 gyuyfs  werigb furieb ",
+    name: "Daniel Radcliffe",
+    img: "https://wallpapercave.com/wp/mAojpeA.jpg",
   },
   {
-    title: "card 3",
-    img: "",
-    text: "dhcsbvf bhfdsjv jfbhgys fwgbyeh aluifwgr gruihheyw8 gyuyfs  werigb furieb ",
+    name: "Rupert Grint",
+    img: "https://media.glamour.com/photos/6001fa6475ba02d6bf035bd3/1:1/w_2504,h_2504,c_limit/Rupert-Grint-Servant-Dad-hot.jpg",
   },
   {
-    title: "card 4",
-    img: "",
-    text: "dhcsbvf bhfdsjv jfbhgys fwgbyeh aluifwgr gruihheyw8 gyuyfs  werigb furieb ",
-  },
-  {
-    title: "card 5",
-    img: "",
-    text: "dhcsbvf bhfdsjv jfbhgys fwgbyeh aluifwgr gruihheyw8 gyuyfs  werigb furieb ",
-  },
-  {
-    title: "card 6",
-    img: "",
-    text: "dhcsbvf bhfdsjv jfbhgys fwgbyeh aluifwgr gruihheyw8 gyuyfs  werigb furieb ",
+    name: "Tom Felton",
+    img: "https://wallpapercave.com/wp/wp4954117.jpg",
   },
 ];
