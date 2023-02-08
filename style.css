@@ -42,3 +42,29 @@ nav ul a {
     height: 45px;
     width: auto;
 }
+.grid{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns:[col-start-1 ] 1fr[col-end-1 col-start-2 ] 1fr[col-end-2 col-start-3] 1fr [col-end-3 col-start-4] 1fr[col-end-4];
+    grid-template-rows:[row-start-1 ] 1fr[row-end-1 row-start-2] 1fr [row-end-2 row-start-3] 1fr [row-end-3 row-start-4] 1fr [row-end-4 row-start-5] 1fr [ row-end-5 row-start-6]1fr[row-end-6];
+}
+.header{
+    grid-row: 1/4;
+    grid-column: 1/5;
+    background-color: aqua;
+}
+.about{
+    grid-row: 4/6;
+    grid-column:1/3;
+    background-color: rgb(99, 9, 85);
+}
+.info{
+    grid-row: 4/6;
+    grid-column: 3/5;
+    background-color: chartreuse
+}
+.cards{
+    grid-row: 6/7;
+    grid-column: 1/5;
+    background-color: brown;
+}
