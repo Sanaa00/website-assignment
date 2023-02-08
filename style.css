@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: NotoSans;
+    background-color: #161d20;
+}
+.menu {
+    display: none;
+}
+.nav {
+    background-color: #161d20;
+    height: 70px;
+    color: #f0f1f2;
+    font-size: 18px;
+    position: fixed;
+    width: 100vw;
+}
+.div-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+nav ul a {
+    margin: 0px 20px;
+    align-items: center;
+    display: flex;
+    color: aliceblue;
+    text-decoration: none;
+}
+.container {
+    max-width: 1200px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+.nav-img {
+    height: 45px;
+    width: auto;
+}
