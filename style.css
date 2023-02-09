@@ -2,12 +2,17 @@
     font-family: harry-poter;
     src: url("./font/HARRYP__.TTF");
 }
+@font-face {
+    font-family:roboto;
+    src: url("./font/Roboto-Regular.ttf");
+}
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: NotoSans;
     background-color: #161d20;
+    font-family: roboto;
     
 }
 
@@ -51,8 +56,8 @@ nav ul a {
 .grid{
     padding-top: 100px;
     display: grid;
-    grid-template-columns:[col-start-1 ] 1fr[col-end-1 col-start-2 ] 1fr[col-end-2 col-start-3] 1fr [col-end-3 col-start-4] 1fr[col-end-4];
-    grid-template-rows:[row-start-1 ] 1fr[row-end-1 row-start-2] 1fr [row-end-2 row-start-3] 1fr [row-end-3 row-start-4] 1fr [row-end-4] ;
+    grid-template-columns:[col-start-1 ] 1fr[col-end-1 col-start-2 ] 1fr[col-end-2 col-start-3] 1fr [col-end-3 col-start-4 ] 1fr[col-end-4];
+    grid-template-rows:[row-start-1 ] 800px[row-end-1 row-start-2] 600px [row-end-2 row-start-3] 400px [row-end-3 ]  ;
 }
 .header{
     grid-row: 1/2;
@@ -63,40 +68,64 @@ nav ul a {
     margin-top: 20px;
     grid-row: 2/3;
     grid-column:1/3;
-    height: 600px;
+   
 }
 .info{
     margin-top: 20px;
     grid-row: 2/3;
     grid-column: 3/5;
-height: 600px;
+
 }
 .cards{
-    grid-row:3/4;
+    /* grid-row:3/4; */
     grid-column: 1/5;
-    background-color: brown;
-    height: 500px;
+    margin-bottom: 20px;
+   
 }
 .img-header{
     width: 100%;
     object-fit: cover;
+    height: 700px;
+    margin-top:10px ;
 }
 .p-header{
-    font-size: 70px;
+    font-size: 60px;
     padding: 0px;
     margin: 0px;
     color: #2d7c8d;
     font-family: harry-poter;
     text-align: center;
-    padding-top: 20px;
 }
 .p-info{
     color: #f0f1f2;
-    font-size: 20px;
-    padding: 40px;
+    font-size: 15px;
+     padding: 0 20px;
    
 }
 .photo{
     width: 100%;
     object-fit: cover;
+    height: 500px;
+}
+.card{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: aquamarine;
+    position: relative;
+        overflow: hidden;
+}
+.card-img{
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.name{
+    margin: 0;
+    position: absolute;
+    bottom:0px;
+    left:1px;
+    color: #f0f1f2;
+    font-size: 20px;
 }
